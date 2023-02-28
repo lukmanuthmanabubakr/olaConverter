@@ -1,0 +1,188 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    border: none;
+ }
+
+ html {
+    height: 100%;
+ }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+ }
+
+
+ .conveter {
+    padding: 10px 20px;
+    box-shadow: 0px 4px 16px 2px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.conveter > .title {
+    display: flex;
+    align-items: center;
+}
+
+.conveter > .title > svg {
+    width: 30px;
+    color: dodgerblue;
+    margin-right: 5px;
+}
+
+
+.conveter > .title > h1 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#convertForm > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+#convertForm > div > input,
+#convertForm > div > select {
+    border: 1px solid rgb(210, 207, 207);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 12px;
+    box-shadow: 8px 3px 15px rgb(0, 0, 0, 0.1);
+    
+}
+
+#convertForm > button {
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    margin: 6px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#convertForm > button:hover {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: white;
+    color: dodgerblue;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+#convertResult {
+    width: 100%;
+    font-weight: 900;
+    margin: 20px 0;
+    
+}
+
+#convertResult.error {
+    color: red;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background: white;
+}
+
+.body {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 0.5rem;
+    margin: 10rem;
+    background: blue;
+}
+
+.body .container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.body .container .logo {
+    height: 3rem;
+    width: 3rem;
+    color: green;
+}
+
+.body .container .text h3 {
+    font-size: 2rem;
+}
+
+
+
+ */
+
+
+ 
+
